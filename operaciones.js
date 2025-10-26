@@ -12,6 +12,7 @@ function registrar(nombre, edad, animal, color, enfermedad) {
     })
 
     fs.writeFileSync('citas.json', JSON.stringify(data))
+    console.log("Cita Registrada")
 }
 
 function leer() {
